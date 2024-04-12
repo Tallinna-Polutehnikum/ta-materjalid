@@ -13,20 +13,20 @@ Selles harjutuses olev kauplemisalgoritm on väga algeline ja spekulatiivne - se
 4. Kirjutame kauplemisalgormitmi ehk valemi, mille järgi iga sekund osta või müüa
 5. Võtame praeguse Bitcoini hinna US dollarites CoinGecko API kaudu.
 
-### Raamatupidamise ja kauplemise funktsioonide mõte
+#### 1. & 2. Raamatupidamise ja kauplemise funktsioonide mõte
 Meil on vaja teada, kui palju meil on erinevaid valuutasid. Seda on vaja teada kauplemiseks, kuna programm peab aru saama millal enam osta või müüa enam ei saa, sest raha on otsas.
 TODO joonis
 
-### Kuidas kontrollida kas hakkas kauplemise funktsioonid hakkasid tööle
+#### 3. Kuidas kontrollida kas hakkas kauplemise funktsioonid hakkasid tööle
 TODO
 
-### Algeline kauplemisalgoritm
+#### 4. Algeline kauplemisalgoritm
 Kauplemise algoritmi eesmärk oleks vältida kahjumisse jäämist. Üks tehnika oleks oletada mingi keskmine, millest hind hakkab üles alla kõikuma.
 - määrame selle nädala oodatud keskmise hinna
 - vahetame meie Bitcoini kellegi teise dollarite vastu, kui Bitcoini hind dollarites on oodatust keskmisest kallim (müü/sell)
 - vahetame meie dollareid kellegi teise Bitcoini vastu, kui Bitcoini hind dollarites on oodatust keskmisest odavam (osta/buy)
 
-### Bitcoini hind API kaudu
+#### 5. Bitcoini hind API kaudu
 TODO
 
 ### Hindamine
