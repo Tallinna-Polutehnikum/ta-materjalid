@@ -37,3 +37,22 @@ Siin on väga ligilähedane näide mida meie saaksime muuta ja siis chatis kasut
 
 ### 3. Sõnumite vastu võtmine
 Kasuta eelmises tunnis tehtud sõnumite vastuvõtmise koodi, pane need nüüd kokku.
+
+
+
+
+### Orignaalne algtekst
+
+Eesmärk on chatis teha sõnumi kirjutamise võimalus. Loe esiteks ülesanded läbi, siis hakka tegema.
+
+1. Ava oma chati projekt. Kui seda pole võta sõbra oma.
+2. Lisa HTML faili sisse <input/> element.
+3. Kasuta JavasScripti käsku addEventListener selleks, et Enter nupu peale käivitub funktsioon (milles hakkame sõnumit saatma). https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+4. Serverisse saatmine toimub fetch() käsu abil, kasuta formaati mis on antud siin vastuses: https://stackoverflow.com/a/39565776/1905229 (copy-paste, järgmises sammus muudame väärtusi)
+5. Muuda päringu URL meie serveri omaks: https://kool.krister.ee/chat/TA23A (või TA23B)
+6. Muuda body sisu selliseks, et sul oleks `name` ja `msg` võtmed objektis. Näiteks {name: "Krister", msg: "Tere, olen sõnum."}
+6a. Kontrolli, et sinu JavaScriptis oleks kasutusel `msg` võti ja mitte `message`.
+
+Nüüd peaks asi toimima. Kirjuta sõnum inputti, vajuta enterit ja refreshi leht et näha oma sõnumit.
+
+Boonus: mõtle välja, kuidas refreshimine automaatseks teha.
