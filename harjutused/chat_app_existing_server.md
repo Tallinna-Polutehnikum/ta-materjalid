@@ -37,10 +37,10 @@ Siin on väga ligilähedane näide mida meie saaksime muuta ja siis chatis kasut
 
 ### 3. Sõnumite vastu võtmine
 Kasuta eelmises tunnis tehtud sõnumite vastuvõtmise koodi, pane need nüüd kokku.
-
-
-
-
+  
+  
+  
+  
 ### Orignaalne algtekst
 
 Eesmärk on chatis teha sõnumi kirjutamise võimalus. Loe esiteks ülesanded läbi, siis hakka tegema.
