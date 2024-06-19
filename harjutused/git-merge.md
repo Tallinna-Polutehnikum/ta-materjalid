@@ -5,3 +5,5 @@ ja kaks inimest muudavad teises failis ühe sama rea peal näiteks class="top" o
 siis vaja teha merge conflict
 
 https://betterprogramming.pub/git-branching-strategy-for-better-team-collaboration-aacb5f235d05
+
+https://githowto.com/
